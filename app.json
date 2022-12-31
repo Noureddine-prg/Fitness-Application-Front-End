@@ -11,6 +11,10 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": ["js", "jsx", "scss", "sass"]
+    },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
@@ -29,5 +33,6 @@
     "web": {
       "favicon": "./assets/favicon.png"
     }
+
   }
 }
