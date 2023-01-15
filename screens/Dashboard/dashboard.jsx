@@ -1,12 +1,13 @@
-import React from 'react';
+import * as React from 'react';
 import {Stylesheet, Text , View} from 'react-native';
 import styles from "./stylesheet.scss";
+import { Dimensions } from 'react-native';
 
-const Dashboard = () => {
+const Dashboard = ({navigation}) => {
     return(
-        <view style={styles.container}>
-            <Text> Dashboard </Text>
-        </view>
+        <View style={styles.container}>
+            <Text> Dashboard </Text>           
+        </View>
     );
 } 
 

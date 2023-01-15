@@ -1,13 +1,22 @@
-import { StatusBar } from 'expo-status-bar';
-import {Stylesheet, Text, View } from 'react-native';
+import * as React from 'react';
+import Navbar from './components/Navbar/navbar';
+import { NavigationContainer } from '@react-navigation/native';
+import {SafeAreaView} from 'react-native';
 import styles from "./globalstyles.scss";
 
+
 export default function App() {
+
   return (
-    <View style={styles.container}>
-      <Text style={styles.text}>Fitness Application</Text>
-      <StatusBar style="auto" />
-    </View>
+    <SafeAreaView style={styles.container}>
+
+        <NavigationContainer>
+
+          <Navbar/>
+
+        </NavigationContainer>
+
+    </SafeAreaView>
   );
 }
 

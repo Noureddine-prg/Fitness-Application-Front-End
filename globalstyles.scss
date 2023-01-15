@@ -1,11 +1,9 @@
+$primary: rgba(40, 40, 40, 1);
+
 .container{
     flex: 1;
-    background-color: green;
-    align-items: center;
-    justify-content: center;
+    background-color: $primary;
+    padding-bottom: 0;
 }
 
-.text
-{
-    font-size: 30px;
-}
+

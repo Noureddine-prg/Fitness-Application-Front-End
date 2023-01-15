@@ -1,12 +1,12 @@
-import React from 'react';
+import * as React from 'react';
 import {Stylesheet, Text , View} from 'react-native';
 import styles from "./stylesheet.scss";
 
-const Login = () => {
+const Login = ({navigation}) => {
     return(
-        <view>
+        <View>
             <Text> Login </Text>
-        </view>
+        </View>
     );
 } 
 

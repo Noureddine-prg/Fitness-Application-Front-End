@@ -1,12 +1,12 @@
-import React from 'react'
+import * as React from 'react';
 import {Stylesheet, Text , View} from 'react-native';
 import styles from "./stylesheet.scss";
 
-const Register = () => {
+const Register = ({navigation}) => {
     return(
-        <view>
+        <View>
             <Text> Register </Text>
-        </view>
+        </View>
     );
 }
 

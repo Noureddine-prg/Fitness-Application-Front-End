@@ -1,13 +1,14 @@
-import React from 'react'
-import {Stylesheet, Text , View} from 'react-native';
+import * as React from 'react';
+import {Text , View} from 'react-native';
 import styles from "./stylesheet.scss";
 
-const Profile = () => 
+
+const Profile = ({navigation}) => 
 {
     return(
-        <view>
+        <View style={styles.container}>
             <Text> Profile </Text>
-        </view>
+        </View>
     );
 }
 
