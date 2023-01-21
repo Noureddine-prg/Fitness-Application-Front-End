@@ -1,14 +1,13 @@
 import * as React from 'react';
 import {Text , View} from 'react-native';
-import styles from "./stylesheet.scss";
-
+import * as S from "./styles";
 
 const Profile = ({navigation}) => 
 {
     return(
-        <View style={styles.container}>
+        <S.Container>
             <Text> Profile </Text>
-        </View>
+        </S.Container>
     );
 }
 
