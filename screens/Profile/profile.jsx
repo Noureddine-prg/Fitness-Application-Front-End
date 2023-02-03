@@ -1,4 +1,5 @@
 import * as React from 'react';
+<<<<<<< HEAD
 import {Text , View, Image} from 'react-native';
 import * as S from "./styles";
 
@@ -7,12 +8,17 @@ const userAge = 21;
 const userBMI = 12.1;
 let userImage = '../../assets/philip.jpeg';
 
+=======
+import {Text , View} from 'react-native';
+import * as S from "./styles";
+>>>>>>> a69237b146b9e4467e9d43288bcd1f5077ad3eb9
 
 const Profile = ({navigation}) => 
 {
 
     return(
         <S.Container>
+<<<<<<< HEAD
 
             <S.Header>
 
@@ -64,6 +70,9 @@ const Profile = ({navigation}) =>
                 
             </S.AchievementContainer>            
 
+=======
+            <Text> Profile </Text>
+>>>>>>> a69237b146b9e4467e9d43288bcd1f5077ad3eb9
         </S.Container>
     );
 }
