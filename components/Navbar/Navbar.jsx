@@ -23,13 +23,8 @@ const Navbar = () =>
                 borderTopLeftRadius: 15,             
                 borderTopWidth: 0,
                 paddingTop: 15,                
-<<<<<<< HEAD
         }}}>
 
-=======
-        }}}
-        >
->>>>>>> a69237b146b9e4467e9d43288bcd1f5077ad3eb9
             <Tab.Screen 
                 name="Dashboard" 
                 component={Dashboard} 
@@ -53,11 +48,7 @@ const Navbar = () =>
                         <Ionicons name="person-outline" size={iconSize} color={iconColor} style={focused ? iconColor = "black" : iconColor = "white" }/>   
                     ),
                 }}
-<<<<<<< HEAD
                     
-=======
-                  
->>>>>>> a69237b146b9e4467e9d43288bcd1f5077ad3eb9
             />
 
 

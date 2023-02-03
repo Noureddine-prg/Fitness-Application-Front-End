@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import styled from "styled-components/native";
 
 export const Container = styled.View`
@@ -86,17 +85,3 @@ export const AchievementCard = styled.View`
 `;
 
 export const AchievementText = styled.Text``;
-=======
-import styled from 'styled-components/native';
-
-export const Container = styled.View
-`
-    background-color: maroon;
-    flex: 1;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    justify-content: center; 
-`
-
->>>>>>> a69237b146b9e4467e9d43288bcd1f5077ad3eb9
