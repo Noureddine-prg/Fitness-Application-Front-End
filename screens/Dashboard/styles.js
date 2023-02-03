@@ -5,10 +5,6 @@ export const Container = styled.View`
   flex: 3;
   width: 100%;
   height: 100%;
-<<<<<<< HEAD
-=======
-  align-items: center;
->>>>>>> a69237b146b9e4467e9d43288bcd1f5077ad3eb9
   padding: 20px;
 `;
 
@@ -18,11 +14,7 @@ export const SafeArea = styled.SafeAreaView`
 `;
 
 export const Header = styled.View`
-<<<<<<< HEAD
   margin: 15px 0px;
-=======
-  margin: 30px 0px;
->>>>>>> a69237b146b9e4467e9d43288bcd1f5077ad3eb9
   height: 90px;
   display: flex;
   flex-direction: row;
@@ -33,13 +25,8 @@ export const HeaderText = styled.Text`
   display: flex;
   color: white;
   font-weight: bold;
-<<<<<<< HEAD
 
   padding-left: ${(props) => props.paddingLeft || 0};
-=======
-  margin-bottom: 0px;
-
->>>>>>> a69237b146b9e4467e9d43288bcd1f5077ad3eb9
   font-size: ${(props) => props.fontSize || 20};
   color: ${(props) => props.fontColor || "white"};
 `;
@@ -57,19 +44,13 @@ export const ImageContainer = styled.TouchableOpacity`
 `;
 
 export const HeaderImage = styled.Image`
-<<<<<<< HEAD
   width: 70px;
   height: 70px;
-=======
-  width: 60%;
-  height: 80%;
->>>>>>> a69237b146b9e4467e9d43288bcd1f5077ad3eb9
   border-radius: 150px;
   border: solid lightgrey 1.5px;
 `;
 
 export const ButtonContainer = styled.View`
-<<<<<<< HEAD
   height: 60px;
   display: flex;
   justify-content: center;
@@ -100,17 +81,3 @@ export const WorkoutHeaderText = styled.Text`
   justify-content: center;
   align-content: center;
 `;
-=======
-  height: 50px;
-  width: 100%;
-  margin-top: 150px;
-`;
-
-export const CreateWorkoutButton = styled.Button`
-  border-color: red;
-  border-width: 5px;
-  border-radius: 15px;
-`;
-
-export const CalendarContainer = styled.View``;
->>>>>>> a69237b146b9e4467e9d43288bcd1f5077ad3eb9
