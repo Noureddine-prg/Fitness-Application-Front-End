@@ -2,6 +2,9 @@ import * as React from 'react';
 import {Text , View, Image} from 'react-native';
 import * as S from "./styles";
 
+import AchievementCard from '../../components/AchievementCard/AchievementCard';
+
+
 const userWeight = 200;  
 const userAge = 21;
 const userBMI = 12.1;
@@ -44,25 +47,16 @@ const Profile = ({navigation}) =>
 
             <S.BioContainer>
 
-                <S.BioText>I will be the strongest I can in 6 months of working out. Veritatis repudiandae, placeat doloremque nihil aut et laboriosam! Beatae, impedit.</S.BioText>
+                <S.BioText>I will bench 225 by the end of the year and become a boxing master. </S.BioText>
 
             </S.BioContainer>
 
             <S.AchievementContainer>
-                
-                <S.AchievementCard>
-                    <S.AchievementText>Worked out for: X Hours </S.AchievementText>
-                </S.AchievementCard>
-                
-                <S.AchievementCard>
-                    <S.AchievementText>Workout Sessions: X times </S.AchievementText>
-                </S.AchievementCard>
+                <AchievementCard color ="rgb(42,132,199)" achievement={"Longest workout session: "} amount={3} measurement={"hours"}/>
+                <AchievementCard color ="rgb(108,37,230)" achievement={"Days worked out consecutively: "} amount={5} measurement={"times"}/>
+                <AchievementCard color ="rgb(181,21,117)" achievement={"Days worked out consecutively: "} amount={5} measurement={"times"}/>
+            </S.AchievementContainer>      
 
-                <S.AchievementCard>
-                    <S.AchievementText>Average Workout Time: X hours </S.AchievementText>
-                </S.AchievementCard>
-                
-            </S.AchievementContainer>            
 
         </S.Container>
     );
