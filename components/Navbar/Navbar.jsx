@@ -3,7 +3,9 @@ import {Text , View, Image, Button, Pressable} from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Dashboard from '../../screens/Dashboard/dashboard';
 import Profile from '../../screens/Profile/profile';
+import Login from '../../screens/Login/login';
 import { Ionicons , SimpleLineIcons } from '@expo/vector-icons'; 
+
 
 
 
@@ -16,14 +18,26 @@ const Navbar = () =>
 {
     return(
         <Tab.Navigator screenOptions={{tabBarStyle:{
-                position: 'absolute',
-                backgroundColor: 'rgba(40, 40, 40, 1)',
-                height: 80,
-                borderTopRightRadius: 15,
-                borderTopLeftRadius: 15,             
-                borderTopWidth: 0,
-                paddingTop: 15,                
+            position: 'absolute',
+            backgroundColor: 'rgba(40, 40, 40, 1)',
+            height: 80,
+            borderTopRightRadius: 15,
+            borderTopLeftRadius: 15,             
+            borderTopWidth: 0,
+            paddingTop: 15,                
         }}}>
+            
+            <Tab.Screen initialParams={Login}
+                name="Login"
+                component={Login}
+                options={{
+                    headerShown: false, 
+                    tabBarShowLabel: false,
+                    tabBarButton: () => null,
+                    tabBarStyle: {display: "none"},
+                }}
+                
+            />
 
             <Tab.Screen 
                 name="Dashboard" 
@@ -34,6 +48,7 @@ const Navbar = () =>
                     tabBarIcon: ({color,size, focused}) => (
                         <SimpleLineIcons name="home" size={iconSize} color={iconColor} style={focused ? iconColor = "black" : iconColor = "white" }/>
                     ),
+                    
                 }}
 
             />

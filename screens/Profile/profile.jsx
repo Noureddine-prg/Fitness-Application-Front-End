@@ -52,9 +52,9 @@ const Profile = ({navigation}) =>
             </S.BioContainer>
 
             <S.AchievementContainer>
-                <AchievementCard color ="rgb(42,132,199)" achievement={"Longest workout session: "} amount={3} measurement={"hours"}/>
-                <AchievementCard color ="rgb(108,37,230)" achievement={"Days worked out consecutively: "} amount={5} measurement={"times"}/>
-                <AchievementCard color ="rgb(181,21,117)" achievement={"Days worked out consecutively: "} amount={5} measurement={"times"}/>
+                <AchievementCard color ="rgba(80, 80, 90, 1)" achievement={"Longest workout session: "} amount={3} measurement={"hours"}/>
+                <AchievementCard color ="rgba(80, 80, 90, 1)" achievement={"Days worked out consecutively: "} amount={5} measurement={"times"}/>
+                <AchievementCard color ="rgba(80, 80, 90, 1))" achievement={"Days worked out consecutively: "} amount={5} measurement={"times"}/>
             </S.AchievementContainer>      
 
 

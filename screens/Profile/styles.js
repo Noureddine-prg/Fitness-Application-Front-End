@@ -23,7 +23,7 @@ export const UserImage = styled.Image`
   height: 130px;
   border-radius: 200px;
   padding: 10px;
-  border: white 1.5px;
+  border: black 1.5px;
 `;
 
 export const BoxContainer = styled.View`
@@ -57,17 +57,15 @@ export const BoxText = styled.Text`
 
 // Bio/User Info
 export const BioContainer = styled.View`
-  margin-top: 10%;
-  margin-bottom: 15px;
-  padding: 30px 0;
+  margin-top: 40px;
+  padding: 30px;
   width: 90%;
 `;
 
 export const BioText = styled.Text`
   margin: 5px;
-  font-size: ${(props) => props.fontSize || "15px"};
-  font-weight: ${(props) => props.fontSize || "15px"};
-  color: ${(props) => props.fontColor || "white"};
+  font-size: 20px;
+  color: white;
 `;
 
 export const AchievementContainer = styled.View`
